@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: regular;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  color: var(--dark);
+}
+
+p {
+  color: var(--text);
+}
+
+/* Color Variables */
+:root {
+  --bg-dark: #000813;
+  --bg-light: #F2FAFF;
+  --white: #fff;
+  --dark: #000813;
+  --text: #575757;
+  --primary: #092750;
+  --secondary: #0C8CE9;
+  --light: #C5E6FF;
+}
+
+@font-face {
+  font-family: lightfont;
+  src: url('./font/Poppins-Light.otf');
+}
+
+@font-face {
+  font-family: regular;
+  src: url('./font/Poppins-Regular.otf');
+}
+
+@font-face {
+  font-family: mediumfont;
+  src: url('./font/Poppins-Medium.otf');
+}
+
+@font-face {
+  font-family: semibold;
+  src: url('./font/Poppins-SemiBold.otf');
+}
+
+@font-face {
+  font-family: boldfont;
+  src: url('./font/Poppins-Bold.otf');
+}
+
+@font-face {
+  font-family: extrabold;
+  src: url('./font/Poppins-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: rancho;
+  src: url('./font/Rancho-Regular.ttf');
+}
+
+@media (min-width: 1550px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1900px !important;
+  }
+}
+
+.desktopHide {
+  display: none;
+}
+
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .desktopHide {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

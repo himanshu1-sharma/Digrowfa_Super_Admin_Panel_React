@@ -1,0 +1,1139 @@
+.title {
+    margin-bottom: 2rem;
+}
+
+.title h4 {
+    margin-top: 2rem;
+    font-family: mediumfont;
+}
+
+/* ===========dashboard page================== */
+.dashboardCardHeader ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.dashboardCardHeader ul li {
+    color: var(--dark);
+    font-family: mediumfont;
+}
+
+.dashboardCardIcon {
+    background-color: var(--dark);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.dashboardCard {
+    box-shadow: 0px 0px 10.3342px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    background-color: var(--secondary);
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboardCardBody {
+    margin-top: 2rem;
+}
+
+.dashboardCardBody h2 {
+    font-size: 40px;
+    color: var(--dark);
+    font-family: boldfont;
+
+}
+
+.dashboardCard.one {
+    background-image: url(../../img/icons/UserGradient.png);
+}
+
+.dashboardCard.two {
+    background-image: url(../../img/icons/FeedbacksGradient.png);
+}
+
+.dashboardCard.three {
+    background-image: url(../../img/icons/Reported_usersGradient.png);
+}
+
+.dashboardCard.four {
+    background-image: url(../../img/icons/Reported_ProblemGradient.png);
+}
+
+.dashboardCard.five {
+    background-image: url(../../img/icons/VerificationGradient.png);
+}
+
+.dashboardCard.six {
+    background-image: url(../../img/icons/FeedbacksGradient.png);
+}
+
+.dashboardCard.seven {
+    background-image: url(../../img/icons/Reported_usersGradient.png);
+}
+
+.dashboardCard.eight {
+    background-image: url(../../img/icons/Reported_ProblemGradient.png);
+}
+
+
+/* ============end================ */
+
+/* ======shout player====== */
+.shoutPlayerBox {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.shoutPlayer {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.shoutPlayer div {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: black;
+}
+
+/* =====end====== */
+
+/* ==============edit/add================ */
+.dashboardAccordion .accordion {
+    --bs-accordion-border-width: 0;
+    --bs-accordion-inner-border-radius: 0;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-active-color: var(--dark);
+}
+
+.dashboardAccordion .accordion-item {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px !important;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+
+.dashboardAccordion .accordion-button {
+    font-family: mediumfont;
+}
+
+.dashboardAccordion .accordion-body {
+    padding: 1rem 2rem !important;
+}
+
+.categoryBtnList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboardAddBtn {
+    background: #FF3C3C;
+    border-radius: 10px;
+    padding: 10px 1.5rem;
+    color: var(--white);
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.dashboardAddBtn img {
+    margin-right: 6px;
+}
+
+.exportBtn {
+    padding: 10px 1.5rem;
+    border-radius: 10px;
+    color: var(--white);
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: #10C469;
+}
+
+.addCategoryModal {
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.addCategoryModal h4 {
+    font-family: mediumfont;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+.formInput {
+    margin: 1.5rem;
+}
+
+.formInput input,
+.formInput select,
+.formInput textarea {
+    width: 100%;
+    padding: 1rem 15px;
+    background: #F6F8FA;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.formRadioGroup label {
+    text-transform: capitalize;
+}
+
+
+
+.formBtn button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: #10C469;
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.addCategoryModal.detail {
+    text-align: left;
+}
+
+.addCategoryModal.detail .closeModalBtn {
+    left: 0rem;
+    top: -10px;
+}
+
+.closeModalBtn {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.closeModalBtn svg {
+    font-size: 25px;
+    color: #FF3C3C;
+}
+
+/* ==============end============== */
+
+/* ========data table============ */
+.exportBtnBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.dataTable table thead tr th {
+    border-top: 1px solid #0000008f;
+    border-bottom: 1px solid #0000008f;
+    font-family: semibold;
+}
+
+.dataTable table thead tr th span div {
+    font-family: semibold;
+}
+
+.dataTable table tbody tr td {
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+
+.dataTable .css-1fw5qro-MuiPaper-root {
+    box-shadow: none;
+}
+
+.dataTable .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    box-shadow: none;
+}
+
+.dataTable .MuiPaper-elevation2 {
+    box-shadow: none;
+}
+
+.dataTable .MuiToolbar-gutters {
+    padding: 0;
+}
+
+/* ===========end========== */
+
+.contentBox {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px !important;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+
+/* ===========action button========= */
+.actionBtn button {
+    padding: 7px 10px;
+    font-size: 12px;
+    color: var(--white);
+    font-family: mediumfont;
+    text-transform: capitalize;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+
+    width: 70px;
+}
+
+.actionBtn .delete {
+    background-color: red;
+}
+
+.actionBtn .response {
+    background-color: var(--dark);
+}
+
+.actionBtn .block {
+    background-color: #10C469;
+    margin-right: 10px;
+}
+
+.actionBtn .suspended {
+    background-color: #c7593f;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.actionBtn .activate {
+    background-color: #10C469;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* =============end============= */
+
+.studentProfilePic {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #3c48524a;
+    border-style: dashed;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-image: url(../../img/header/profile.png); */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profileFormGroupImg {
+    position: relative;
+}
+
+.profileFormGroupImg label {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    top: 65%;
+    left: 57%;
+    transform: translate(-50%);
+    cursor: pointer;
+    text-align: center;
+}
+
+.profileFormGroupImg label svg {
+    color: var(--white);
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.topics li {
+    padding: 5px 10px;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    width: max-content;
+    margin: 5px;
+}
+
+
+.printBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.printBtn button {
+    padding: 10px 20px;
+    background-color: #10C469;
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-family: mediumfont;
+    border-radius: 6px;
+}
+
+.exportBtnBox .css-136h9lv-MuiFormControl-root-MuiTextField-root {
+    width: 30%;
+}
+
+.nextPrevBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextPrevBtn button {
+    padding: 10px 20px;
+    background-color: var(--dark);
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-family: mediumfont;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+/* =====conformationModalContent========= */
+
+.conformationModalContent {
+    text-align: center;
+}
+
+.conformationModalContent p {
+    font-size: 20px;
+    font-family: mediumfont;
+}
+
+.conformationModalContent button {
+    padding: 10px 20px;
+    background-color: var(--dark);
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-family: mediumfont;
+    border-radius: 6px;
+    text-transform: capitalize;
+    margin: 0 10px;
+}
+
+/* ===========end============= */
+
+.chooseCategoryTable form div {
+    display: flex;
+}
+
+.chooseCategoryTable form div .form-check {
+    margin-right: 1rem;
+}
+
+.chooseCategoryTable form div .form-check input {
+    margin-right: 5px;
+}
+
+.categoryTable td {
+    vertical-align: baseline;
+}
+
+.categoryTable td ul {
+    padding: 0 0 0 5px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.categoryTable td ul li {
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+
+.categoryTable td ul li.active {
+    color: var(--secondary);
+    font-family: mediumfont;
+    border-bottom: 2px solid var(--secondary);
+    width: max-content;
+}
+
+.blackCategoryBox {
+    width: 100%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tableImg img {
+    max-width: 50px;
+    cursor: pointer;
+}
+
+.pending {
+    background-color: #FFF4CF;
+    color: #FFC700;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.resolved {
+    background-color: #DDFFEE;
+    color: #10C469;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.ongoing {
+    background-color: #ff000023;
+    color: #ff0000;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.suspend {
+    background-color: #ffbfbf;
+    color: red;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+
+.reportedProblemModal {
+    text-align: left;
+}
+
+.reportedProblemModal .formInput {
+    margin: 0;
+}
+
+.reportedProblemModal h4 {
+    text-align: center;
+}
+
+.reportedProblemModal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+
+}
+
+.reportedProblemModal ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reportedProblemModal ul li span {
+    font-family: semibold;
+    margin-right: 10px;
+}
+
+.reportedProblemModal .nav-tabs {
+    --bs-nav-tabs-border-width: 0px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.reportedProblemModal .nav {
+    --bs-nav-link-color: none;
+    --bs-nav-link-hover-color: none;
+}
+
+.reportedProblemModal .nav .nav-item .active {
+    color: var(--secondary);
+}
+
+.imgModalPre img {
+    max-width: 350px;
+}
+
+/* ====login==== */
+.LoginForm {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* ====end===== */
+
+
+/* =======user detail===== */
+.userDetailTabs {
+    margin: 2rem 0;
+}
+
+.userDetailTabs .nav-tabs {
+    background-color: transparent;
+}
+
+.userDetailTabs .nav-link:hover {
+    border: none !important;
+    background-color: transparent;
+    border-color: transparent !important;
+    margin-bottom: 0 !important;
+}
+
+.userDetailTabs .nav-link {
+    border: none !important;
+    background-color: transparent;
+    border-color: transparent !important;
+    margin-bottom: 0 !important;
+    color: var(--dark);
+    padding: 15px;
+    border-radius: 10px !important;
+}
+
+.userDetailTabs .nav-link.active {
+    background-color: var(--dark) !important;
+    color: var(--white) !important;
+}
+
+
+
+.userDetailTabs .nav-item {
+    margin-bottom: 2rem;
+}
+
+.userDetailBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.userDetailProfile {
+    width: 120px;
+    height: 120px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 1.5rem;
+}
+
+.aboutUser h1 {
+    font-size: 26px;
+    text-transform: capitalize;
+    margin: 0;
+    font-family: mediumfont;
+}
+
+.aboutUser p {
+    margin: 1rem 0 0 0;
+    text-transform: capitalize;
+}
+
+.userFollow {
+    margin: 3rem 0 1rem 0;
+}
+
+.userFollow ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.userFollow ul li {
+    text-align: center;
+    margin: 0 3rem 0 0;
+    color: var(--dark);
+    position: relative;
+}
+
+.userFollow ul li::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 60px;
+    background-color: #ccc;
+    right: -1.6rem;
+    top: -10px;
+}
+
+.userFollow ul li:last-child::after {
+    display: none;
+}
+
+.userFollow ul li span {
+    font-family: boldfont;
+    color: var(--dark);
+    font-size: 22px;
+}
+
+.userDetailBtn {
+    margin: 2rem 0;
+}
+
+.userDetailBtn button {
+    padding: 10px 1.5rem;
+    border-radius: 6px;
+    color: var(--white);
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.userDetailBtn button svg {
+    margin-right: 5px;
+}
+
+.userDetailBtn button:nth-child(1) {
+    background-color: #BB001B;
+}
+
+.userDetailBtn button:nth-child(2) {
+    background-color: var(--primary);
+}
+
+.userContentBox ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.userContent {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    margin: 0 1.5rem 1.5rem 0;
+}
+
+.userContent p {
+    text-transform: capitalize;
+    color: var(--secondary);
+}
+
+.userContent span {
+    font-family: mediumfont;
+}
+
+/* ====end===== */
+
+/* =============product============= */
+.productBox {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.productImg {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.productImg.service {
+    height: 195px;
+}
+
+.productDetail {
+    padding: 1rem;
+}
+
+.productDetail h4 {
+    font-size: 20px;
+    font-family: mediumfont;
+    text-transform: capitalize;
+}
+
+.productDetail h6 {
+    font-family: boldfont;
+    font-size: 20px;
+}
+
+.productBtn {
+    margin-top: 1.5rem;
+}
+
+.productBtn button {
+    margin-right: 1rem;
+}
+
+
+
+.productImgModalContent h4 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.productImgModalContent .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.productImgModalContent .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.productImgModalContent .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.addCategoryModal.detail .productImgPrev {
+    height: 440px;
+}
+
+.productImgPrev {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reportedUserModalContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal {
+    --bs-modal-zindex: 999999 !important;
+}
+
+.productPreviewImg {
+    max-width: 100px !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ===========end=============== */
+
+/* ===categoryActionBtn=== */
+.categoryActionBtn button {
+    padding: 2px 8px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.categoryActionBtn .delete {
+    background-color: rgba(255, 0, 0, 0.149);
+    color: red;
+}
+
+.categoryActionBtn .update {
+    background-color: #10c46a24;
+    color: #10C469;
+}
+
+/* ===end==== */
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .dashboardMainBox {
+        margin-top: 4rem;
+    }
+
+    .contentBox {
+        padding: 1rem;
+    }
+
+    .dataTable .MuiToolbar-root {
+        display: block !important;
+    }
+
+    .categoryBtnList ul {
+        display: block;
+    }
+
+    .dashboardAddBtn {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .exportBtnBox {
+        display: block;
+    }
+
+    .addCategoryModal {
+        padding: 0;
+    }
+
+    .closeModalBtn {
+        top: 0;
+        left: 0;
+    }
+
+    .formInput {
+        margin: 1.5rem 0;
+    }
+
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+
+    .reportedUserModalContent {
+        display: block;
+    }
+
+    .LoginForm {
+        width: 100%;
+    }
+
+    .userFollow ul {
+        flex-wrap: wrap;
+    }
+
+    .userFollow ul li {
+        margin: 0 3rem 2rem 0;
+    }
+
+    .headerBg::after {
+        font-size: 60px;
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .dashboardMainBox {
+        margin-top: 4rem;
+    }
+
+    .contentBox {
+        padding: 1rem;
+    }
+
+    .dataTable .MuiToolbar-root {
+        display: block !important;
+    }
+
+    .categoryBtnList ul {
+        display: block;
+    }
+
+    .dashboardAddBtn {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .exportBtnBox {
+        display: block;
+    }
+
+    .addCategoryModal {
+        padding: 0;
+    }
+
+    .closeModalBtn {
+        top: 0;
+        left: 0;
+    }
+
+    .formInput {
+        margin: 1.5rem 0;
+    }
+
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+
+    .reportedUserModalContent {
+        display: block;
+    }
+
+    .LoginForm {
+        width: 100%;
+    }
+
+    .userFollow ul {
+        flex-wrap: wrap;
+    }
+
+    .userFollow ul li {
+        margin: 0 3rem 2rem 0;
+    }
+
+    .headerBg::after {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .dashboardMainBox {
+        margin-top: 4rem;
+    }
+
+    .categoryBtnList ul {
+        display: block;
+    }
+
+    .dashboardAddBtn {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .exportBtnBox {
+        display: block;
+    }
+
+    .addCategoryModal {
+        padding: 0;
+    }
+
+    .closeModalBtn {
+        top: 0;
+        left: 0;
+    }
+
+    .formInput {
+        margin: 1.5rem 0;
+    }
+
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+
+    .reportedUserModalContent {
+        display: block;
+    }
+
+    .LoginForm {
+        width: 100%;
+    }
+
+    .dataTable .MuiToolbar-root {
+        display: block !important;
+    }
+
+    .userFollow ul {
+        flex-wrap: wrap;
+    }
+
+    .userFollow ul li {
+        margin: 0 3rem 2rem 0;
+    }
+
+    .headerBg::after {
+        font-size: 70px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .categoryBtnList ul {
+        display: block;
+    }
+
+    .dashboardAddBtn {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .exportBtnBox {
+        display: block;
+    }
+
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+
+    .headerBg::after {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {
+    .actionBtn .suspended {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {
+    .dashboardMainBox {
+        padding: 0 0 0 6rem;
+    }
+}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}
